@@ -1,0 +1,105 @@
+body {
+    background-color: #000822 ;
+    font-size: 15px;
+    font: "Arial", sans-serif;
+    color: aliceblue;
+    h4{
+      font-size: 35px;
+      margin-bottom: -10px;
+    }
+    p{
+      font-size: 25px;
+    }
+  }
+
+.leis {
+  background-color: #01411b;
+  text-align: center;
+  border-radius: 15px ;
+  button{
+    border-radius: 5px;
+    size: 30px;
+  }
+}
+
+.isheader {
+    background-image: url('head.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 5px solid #01411b;
+    height: 300px;
+    color: aliceblue;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+  color: aliceblue;
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #01411b;
+  border-radius: 15px;
+  padding: 0 5px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content {
+  background: #01411b;
+  width: 100%;
+  max-width: 500px;
+  max-height: 80vh; /* Limita altura */
+  overflow-y: auto; /* Ativa scroll */
+  border-radius: 12px;
+  padding: 30px;
+}
+
+
+
+
+#modalImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#modalDescricao {
+  color:aliceblue;
+  font-size: 20px;
+}
+
+#fechar {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  color: aliceblue;
+  font-style: bold;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
